@@ -90,14 +90,14 @@ body {
 }
 
 .logo-mark {
-  width: 46px;
-  height: 46px;
+  width: 56px;
+  height: 56px;
 }
 
 .logo-mark polygon {
   fill: none;
   stroke: var(--cyan);
-  stroke-width: 3.4;
+  stroke-width: 4.2;
   stroke-linejoin: round;
 }
 
