@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Antonio Lo Riso · Immerso Live</title>
+<meta name="description" content="Tarjeta de contacto digital de Antonio Lo Riso, CTO &amp; Founder de Immerso Live.">
+<meta name="theme-color" content="#0b0f1a">
+
+<meta property="og:title" content="Antonio Lo Riso · Immerso Live">
+<meta property="og:description" content="CTO & Founder · Immerso Live. Guarda mi contacto o escríbeme directo.">
+<meta property="og:type" content="profile">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230b0f1a%22/><text x=%2250%22 y=%2266%22 font-size=%2260%22 text-anchor=%22middle%22 fill=%22%2300e5ff%22 font-family=%22sans-serif%22>I</text></svg>">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-glow" aria-hidden="true"></div>
+
+<main class="card">
+
+  <section class="identity">
+    <div class="avatar">AL</div>
+    <h1>Antonio Lo Riso</h1>
+    <p class="role">CTO &amp; Founder</p>
+    <p class="company">Immerso Live</p>
+  </section>
+
+  <a class="save-contact" id="saveContactBtn" href="#" download="Antonio-Lo-Riso-Immerso-Live.vcf">
+    <span class="icon">＋</span>
+    <span>Guardar contacto</span>
+  </a>
+
+  <a class="whatsapp-cta" href="https://wa.me/34605357287?text=Hola%20Antonio%2C%20nos%20conocimos%20y%20quiero%20hablar%20contigo%20sobre%20Immerso%20Live" target="_blank" rel="noopener">
+    <span class="wa-pulse"></span>
+    <span class="icon">💬</span>
+    <span>Escríbeme por WhatsApp</span>
+  </a>
+
+  <nav class="links" aria-label="Enlaces de contacto">
+    <a class="link-btn" href="tel:+34605357287">
+      <span class="icon">📞</span><span>Llamar</span>
+    </a>
+    <a class="link-btn" href="mailto:info@immerso.live">
+      <span class="icon">✉️</span><span>Email</span>
+    </a>
+    <a class="link-btn" href="https://immerso.live" target="_blank" rel="noopener">
+      <span class="icon">🌐</span><span>Web</span>
+    </a>
+    <a class="link-btn" href="https://immerso.live/studio" target="_blank" rel="noopener">
+      <span class="icon">🏢</span><span>Studio</span>
+    </a>
+    <a class="link-btn" href="https://proposal.immerso.live/" target="_blank" rel="noopener">
+      <span class="icon">📄</span><span>Propuesta</span>
+    </a>
+    <a class="link-btn" href="https://proposal.immerso.live/hoteles" target="_blank" rel="noopener">
+      <span class="icon">🏨</span><span>Hoteles</span>
+    </a>
+    <a class="link-btn wide" href="https://www.linkedin.com/in/antonio-lo-riso-14154a12a/" target="_blank" rel="noopener">
+      <span class="icon">💼</span><span>LinkedIn</span>
+    </a>
+  </nav>
+
+  <section class="qr-section">
+    <div id="qrcode" class="qr-box" aria-label="Código QR de esta tarjeta"></div>
+    <p class="qr-caption">Escanea para compartir esta tarjeta</p>
+  </section>
+
+  <footer>
+    <p>Immerso Live · tarjeta digital</p>
+  </footer>
+
+</main>
+
+<script src="vendor/qrcode.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
