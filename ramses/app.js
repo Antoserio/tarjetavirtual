@@ -14,11 +14,10 @@
     ]
   };
 
-  // TODO: pega aquí los enlaces reales en cuanto los tengas y el botón
-  // "Descargar la app" empezará a llevar a la tienda correcta automáticamente.
+  // TODO: pega aquí el enlace de App Store en cuanto lo tengas.
   var STORE_URLS = {
     ios: "",     // ej: "https://apps.apple.com/app/idXXXXXXXXX"
-    android: ""  // ej: "https://play.google.com/store/apps/details?id=com.jamlive.app"
+    android: "https://play.google.com/store/apps/details?id=com.jam.eventos"
   };
 
   function buildVCard(c) {
