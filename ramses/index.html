@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ramsés Uriarte · Jam Live</title>
+<meta name="description" content="Tarjeta de contacto digital de Ramsés Uriarte, Founder de Jam Live.">
+<meta name="theme-color" content="#120a1a">
+
+<meta property="og:title" content="Ramsés Uriarte · Jam Live">
+<meta property="og:description" content="Founder · Jam Live. Guarda mi contacto o escríbeme directo.">
+<meta property="og:type" content="profile">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23120a1a%22/><text x=%2250%22 y=%2266%22 font-size=%2260%22 text-anchor=%22middle%22 fill=%22%23ff5fa2%22 font-family=%22sans-serif%22>J</text></svg>">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-glow" aria-hidden="true"></div>
+<canvas id="particles" class="bg-canvas" aria-hidden="true"></canvas>
+
+<main class="card">
+
+  <section class="identity">
+    <div class="avatar">RU</div>
+    <h1>Ramsés Uriarte</h1>
+    <p class="role">Founder</p>
+    <p class="company">Jam Live</p>
+  </section>
+
+  <a class="save-contact" id="saveContactBtn" href="#" download="Ramses-Uriarte-Jam-Live.vcf">
+    <span class="icon">＋</span>
+    <span>Guardar contacto</span>
+  </a>
+
+  <a class="whatsapp-cta" href="https://wa.me/34687180790?text=Hola%20Rams%C3%A9s%2C%20nos%20conocimos%20y%20quiero%20hablar%20contigo%20sobre%20Jam%20Live" target="_blank" rel="noopener">
+    <span class="wa-pulse"></span>
+    <span class="icon">💬</span>
+    <span>Escríbeme por WhatsApp</span>
+  </a>
+
+  <a class="download-app" id="downloadAppBtn" href="https://jam-live.com" target="_blank" rel="noopener">
+    <span class="icon">📲</span>
+    <span id="downloadAppLabel">Descargar la app</span>
+  </a>
+
+  <nav class="links" aria-label="Enlaces de contacto">
+    <a class="link-btn" href="tel:+34687180790">
+      <span class="icon">📞</span><span>Llamar</span>
+    </a>
+    <a class="link-btn disabled" href="#" aria-disabled="true" title="Pendiente: pásame el email">
+      <span class="icon">✉️</span><span>Email</span>
+    </a>
+    <a class="link-btn" href="https://jam-live.com" target="_blank" rel="noopener">
+      <span class="icon">🌐</span><span>Web</span>
+    </a>
+    <a class="link-btn" href="https://app.jam-live.com/" target="_blank" rel="noopener">
+      <span class="icon">🎛️</span><span>App Web</span>
+    </a>
+    <a class="link-btn disabled" href="#" aria-disabled="true" title="Pendiente: pásame el enlace de App Store">
+      <span class="icon"></span><span>App Store</span>
+    </a>
+    <a class="link-btn disabled" href="#" aria-disabled="true" title="Pendiente: pásame el enlace de Google Play">
+      <span class="icon">▶️</span><span>Google Play</span>
+    </a>
+    <a class="link-btn disabled" href="#" aria-disabled="true" title="Pendiente: pásame el enlace/@usuario de TikTok">
+      <span class="icon">🎵</span><span>TikTok</span>
+    </a>
+    <a class="link-btn disabled" href="#" aria-disabled="true" title="Pendiente: pásame el enlace/@usuario de Instagram">
+      <span class="icon">📷</span><span>Instagram</span>
+    </a>
+    <a class="link-btn wide disabled" href="#" aria-disabled="true" title="Pendiente: pásame el enlace de LinkedIn">
+      <span class="icon">💼</span><span>LinkedIn</span>
+    </a>
+  </nav>
+
+  <section class="qr-section">
+    <div id="qrcode" class="qr-box" aria-label="Código QR de esta tarjeta"></div>
+    <p class="qr-caption">Escanea para compartir esta tarjeta</p>
+  </section>
+
+  <footer>
+    <p>Jam Live · tarjeta digital</p>
+  </footer>
+
+</main>
+
+<script src="../vendor/qrcode.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
