@@ -93,7 +93,7 @@
     var DPR = Math.min(window.devicePixelRatio || 1, 2);
     var width, height, points;
     var LINK_DIST = 130;
-    var COLORS = ["255, 95, 162", "255, 154, 60"];
+    var COLORS = ["77, 242, 245", "62, 204, 140"];
 
     function resize() {
       width = window.innerWidth;
